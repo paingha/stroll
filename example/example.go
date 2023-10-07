@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/paingha/stroll/app"
+	"github.com/paingha/stroll"
 )
 
 func main() {
-	exampleApp := app.App{
+	exampleApp := stroll.App{
 		Name:        "example",
 		Description: "an example application using the stroll cli",
 		Version:     "v1.0",
